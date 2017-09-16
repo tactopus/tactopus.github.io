@@ -296,12 +296,12 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .cover-image{
     position: absolute;
     width:100%;
-    min-height:500px;
+    min-height:430px;
 }
 
 .parallax {
     /* The image used */
-    background-image: url('finalcover.jpg');
+    background-image: url('cover.jpg');
 
     /* Full height */
     /*width: 100vw;*/

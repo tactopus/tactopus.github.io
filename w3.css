@@ -296,7 +296,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .cover-image{
     position: absolute;
     width:100%;
-    min-height:430px;
+    min-height:500px;
 }
 
 .parallax {
@@ -307,7 +307,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
     /*width: 100vw;*/
     /*height: 30vw;*/
     width:100%;
-    min-height:550px;
+    min-height:600px;
  
 
     /* Create the parallax scrolling effect */

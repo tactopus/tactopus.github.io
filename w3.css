@@ -211,10 +211,6 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-border-black,.w3-hover-border-black:hover{border-color:#000!important}
 .w3-border-grey,.w3-hover-border-grey:hover,.w3-border-gray,.w3-hover-border-gray:hover{border-color:#bbb!important}
 
-.col-images{
-    width: 30%;
-   }
-
 .images{
  width: 100%;
 }
@@ -257,7 +253,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 }
 
 .coverbox{
-    height: 800px;
+    height: 400px;
      display: table;
 
 }
@@ -300,7 +296,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .cover-image{
     position: absolute;
     width:100%;
-    min-height:400px;
+    min-height:430px;
 }
 
 .parallax {
@@ -311,11 +307,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
     /*width: 100vw;*/
     /*height: 30vw;*/
     width:100%;
-<<<<<<< HEAD
-    min-height:800px;
-=======
-    min-height:600px;
->>>>>>> master
+    min-height:400px;
  
 
     /* Create the parallax scrolling effect */
@@ -327,7 +319,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 
 .logo{
     width: 30px;
-    margin-left: 20px;
+    margin-left: 10px;
     margin-top: 2px;
     /*padding: 0px 16px;*/
 }

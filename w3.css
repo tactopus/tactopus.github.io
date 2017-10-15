@@ -413,9 +413,13 @@ a {
   background-color: white;
 }
 
-button{
+.button{
     color: white;
+}
 
+.middle{
+    width: 100%;
+    
 }
 
 

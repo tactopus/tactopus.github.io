@@ -1,8 +1,5 @@
 /* W3.CSS 4.04 Apr 2017 by Jan Egil and Borge Refsnes */
 
-@import url(https://fonts.googleapis.com/css?family=Lato);
-@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
-
 html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
 /* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
 html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
@@ -30,7 +27,15 @@ legend{color:inherit;display:table;max-width:100%;padding:0;white-space:normal}t
 ::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}
 /* End extract */
 html,body{font-family:Verdana,sans-serif;font-size:15px;line-height:1.5}html{overflow-x:hidden}
-
+.centered{
+    position:absolute;
+    width:100px;
+    height:100px;
+    left:50%;
+    top:50%;
+    margin-left:-50px;
+    margin-top:-50px;
+}
 .w3-serif{font-family:serif}
 h1,h2,h3,h4,h5{ font-family: 'Baloo Thambi', cursive; font-weight:400;margin: 0 ; color:#9C2A8E}.w3-wide{letter-spacing:4px}
 hr{border:0;border-top:1px solid #eee;margin:20px 0}
@@ -214,11 +219,6 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-border-black,.w3-hover-border-black:hover{border-color:#000!important}
 .w3-border-grey,.w3-hover-border-grey:hover,.w3-border-gray,.w3-hover-border-gray:hover{border-color:#bbb!important}
 
-
-.col-images{
- height:300px;
-
-}
 .images{
  width: 100%;
 }
@@ -261,7 +261,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 }
 
 .coverbox{
-    height: 900px;
+    height: 400px;
      display: table;
 
 }
@@ -281,12 +281,9 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 
 #header {
     border-bottom: 1px solid #ff0000;
-    align-content: center;
-    z-index: 1;
 }
 #title{
-    margin-left: 30px;
-    float: left;
+    margin-left: 10px;
 }
 
 .title-text{
@@ -312,21 +309,15 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 
 .parallax {
     /* The image used */
-    background-image: url('cover_1.jpg');
-
-    /* Full height */
-    /*width: 100vw;*/
-    /*height: 30vw;*/
-    width:100%;
-    min-height:800px;
-    z-index: -2;
- 
+    background-image: url('cover.jpg');
+    width:100vw;
+    height:400px;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: top;
     background-repeat: no-repeat;
-    /*background-size: cover;*/
+    background-size: auto;
 }
 
 .logo{
@@ -413,13 +404,9 @@ a {
   background-color: white;
 }
 
-.button{
+button{
     color: white;
-}
 
-.middle{
-    width: 100%;
-    
 }
 
 
@@ -462,83 +449,3 @@ p{font-size:16px}
 .navbar{position: fixed;}
 
 }  
-
-
-ul {
-    padding:0;
-    list-style: none;
-}
-.footer-social-icons {
-
-    display:block;
-    margin: 0 auto;
-
-}
-.social-icon {
-    color: #fff;
-}
-ul.social-icons {
-    margin-top: 10px;
- 
-    text-align: center;
-    
-}
-.social-icons li {
-    vertical-align: top;
-    display: inline;
-    /* height: 100px; */
-}
-.social-icons a {
-    color: #fff;
-    text-decoration: none;
-}
-.fa-facebook {
-    padding:10px 14px;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition: .5s;
-    background-color: #8B5284;
-}
-.fa-facebook:hover {
-    background-color: #3d5b99;
-}
-.fa-twitter {
-    padding:10px 12px;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition: .5s;
-    background-color: #8B5284;
-}
-.fa-twitter:hover {
-    background-color: #00aced;
-}
-
-.fa-linkedin {
-    padding:10px 14px;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition: .5s;
-    background-color: #8B5284;
-}
-.fa-linkedin:hover {
-    background-color: #0073a4;
-}
-
-.fa-medium {
-    padding:10px 14px;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition: .5s;
-    background-color: #8B5284;
-}
-.fa-medium:hover {
-    background-color: #0073a4;
-}

@@ -59,41 +59,6 @@
 </div>
 <!--end first set-->
 
-
-<!--footer-->
-
-<div class="w3-row-padding nopadding">
-    <div class="w3-third box-footer">
-         <div class="unit">
-            <h4  class="centered-content">SOCIAL</h2>
-
-                <div class="footer-social-icons centred-content">
-                    <ul class="social-icons">
-                        <li><a href="https://www.facebook.com/tactopus/" target="_blank" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
-                        <li><a href="https://twitter.com/tactopus_edu" target="_blank" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
-                        <li><a href="https://www.linkedin.com/company/13420525/" target="_blank" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
-                        <li><a href="https://www.medium.com/tactopus" target="_blank" class="social-icon"> <i class="fa fa-medium"></i></a></li>
-                        
-                    </ul>
-                </div>
-
-
-        </div>
-    </div>
-    <div class="w3-third box-footer">
-         <div class="unit">
-            <h4  class="centered-content">CONTACT</h2>
-                <p class="subtitle centered-content"  style="color:#777777">chandni@tactopus.com</p>
-        </div>
-    </div>
-    <div class="w3-third box-footer ">
-         <div class="unit">
-            <h4  class="centered-content">LOCATION</h2>
-                <p class="subtitle centered-content"  style="color:#777777">SINE, IIT Bombay <br>Mumbai, India </p>
-        </div>
-    </div>
-</div>
-
 </body>
 
 <!--#note design a preorder inquiry button-->

@@ -11,6 +11,10 @@ body {
   margin: 10px;
 }
 
+@media only screen and (min-width: 600px) {
+      .button { width: 200px;}
+} 
+
 h1 {
   font-size: 1.3em;
   color: #7b7b7b;
@@ -18,7 +22,7 @@ h1 {
   margin: 30px auto 0px auto;
 }
 
-h2 {
+p.quote {
   font-size: 1.3em;
   color: #F7524B;
   font-weight: 500;
@@ -33,6 +37,13 @@ p, ul, ol {
   line-height: 1.5;
 }
 
+a {
+  -webkit-transition: .2s all;
+  transition: .2s all;
+  color: #F7524B;
+  text-decoration: none;
+}
+
 .button{
   font-size: 1.2em;
   margin: 0px auto 10px auto;
@@ -41,15 +52,6 @@ p, ul, ol {
   border: solid #f7524B 2px;
   display: block;
   padding: 5px;
-  width: 200px;
-
-}
-
-a {
-  -webkit-transition: .2s all;
-  transition: .2s all;
-  color: #F7524B;
-  text-decoration: none;
 }
 
 .button:hover, .button:focus {

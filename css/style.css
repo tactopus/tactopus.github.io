@@ -21,7 +21,7 @@ h1 {
   margin: 30px auto 0px auto;
 }
 
-p.quote {
+.quote {
   font-size: 1.3em;
   color: #F7524B;
   font-weight: 500;
